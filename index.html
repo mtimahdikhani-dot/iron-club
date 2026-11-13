@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IRON CLUB | باشگاه بدنسازی</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#101010;color:#fff;font-family:Tahoma,Arial;line-height:1.9}
+header{background:#080808;padding:18px 7%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;border-bottom:2px solid #e32636}
+.logo{font-size:27px;font-weight:bold;color:#ed2939}
+nav a{color:#fff;text-decoration:none;margin:0 10px}
+nav a:hover{color:#ed2939}
+.hero{min-height:390px;padding:65px 8%;display:flex;align-items:center;background:linear-gradient(90deg,#080808 5%,#111b 65%,#1119),url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1400') center/cover}
+.hero h1{font-size:46px;color:#ed2939;margin:0}
+.hero p{font-size:19px}
+.btn{display:inline-block;background:#e32636;color:white;padding:10px 25px;text-decoration:none;border-radius:6px}
+section{padding:45px 7%}
+h2{color:#ed2939;border-right:4px solid #ed2939;padding-right:12px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{background:#1c1c1c;border:1px solid #333;border-radius:10px;overflow:hidden}
+.card img{width:100%;height:155px;object-fit:cover}
+.card .inside{padding:15px}
+.card h3{color:#f04452;margin:5px 0}
+.plan{background:#1c1c1c;padding:20px;border-radius:10px;border:1px solid #333}
+.plan h3{color:#ed2939}
+input{width:100%;padding:13px;background:#202020;color:white;border:1px solid #555;border-radius:7px;margin:10px 0}
+footer{text-align:center;background:#080808;padding:25px;color:#aaa}
+.small{color:#bbb;font-size:14px}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">IRON CLUB ⚡</div>
+<nav>
+<a href="#home">خانه</a>
+<a href="#exercises">آموزش حرکات</a>
+<a href="#plans">برنامه تمرینی</a>
+</nav>
+</header>
+
+<div class="hero" id="home">
+<div>
+<h1>قدرتت رو بساز!</h1>
+<p>به دنیای حرفه‌ای تمرین و بدنسازی خوش آمدی.</p>
+<a href="#exercises" class="btn">شروع آموزش</a>
+</div>
+</div>
+
+<section id="exercises">
+<h2>آموزش حرکات بدنسازی</h2>
+<input id="search" placeholder="نام عضله یا حرکت را جستجو کن..." oninput="searchExercises()">
+<div class="cards" id="exerciseCards">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1534368270820-9de3d8053204?w=600" alt="تمرین سینه">
+<div class="inside"><h3>تمرین سینه</h3><p>پرس سینه، پرس بالا سینه و قفسه دمبل.</p></div>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1598971639058-fab3c3109a00?w=600" alt="تمرین پشت">
+<div class="inside"><h3>تمرین پشت</h3><p>لت سیم‌کش، قایقی و زیربغل دمبل.</p></div>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=600" alt="تمرین سرشانه">
+<div class="inside"><h3>تمرین سرشانه</h3><p>پرس سرشانه، نشر جانب و نشر خم.</p></div>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=600" alt="تمرین بازو">
+<div class="inside"><h3>تمرین بازو</h3><p>جلو بازو دمبل و پشت بازو سیم‌کش.</p></div>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1434596922112-19c563067271?w=600" alt="تمرین پا">
+<div class="inside"><h3>تمرین پا</h3><p>اسکوات، پرس پا و پشت پا دستگاه.</p></div>
+</div>
+</div>
+</section>
+
+<section id="plans">
+<h2>برنامه‌های تمرینی نمونه</h2>
+<div class="cards">
+<div class="plan">
+<h3>برنامه مقدماتی</h3>
+<p>روز اول: سینه و پشت بازو</p>
+<p>روز دوم: استراحت یا فعالیت سبک</p>
+<p>روز سوم: پشت و جلو بازو</p>
+<p>روز چهارم: استراحت</p>
+<p>روز پنجم: پا و سرشانه</p>
+</div>
+<div class="plan">
+<h3>برنامه متوسط</h3>
+<p>روز اول: سینه و پشت بازو</p>
+<p>روز دوم: پشت و جلو بازو</p>
+<p>روز سوم: استراحت</p>
+<p>روز چهارم: پا</p>
+<p>روز پنجم: سرشانه و میان‌تنه</p>
+</div>
+<div class="plan">
+<h3>نکات تمرین</h3>
